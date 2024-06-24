@@ -1,0 +1,26 @@
+{
+  "name": "use-dont-leave",
+  "version": "1.0.0",
+  "description": "A React hook to trigger a call to action when the user tries to leave the page or scrolls to a certain percentage.",
+  "main": "src/useDontLeave.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolas-dev-toolbox/use-dont-leave.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "exit intent",
+    "scroll trigger"
+  ],
+  "author": "Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolas-dev-toolbox/use-dont-leave/issues"
+  },
+  "homepage": "https://github.com/nicolas-dev-toolbox/use-dont-leave#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.3.1"
+  }
+}
