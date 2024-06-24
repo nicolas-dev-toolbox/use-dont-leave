@@ -22,7 +22,7 @@ yarn add use-dont-leave
 
 Import the hook in your React component:
 
-```tsx
+```js
 import useDontLeave from 'use-dont-leave';
 
 const MyComponent = () => {
@@ -48,6 +48,24 @@ const MyComponent = () => {
       },
       storeInUserSession: true,
     },
+  });
+
+  return <div>My Component Content</div>;
+};
+```
+
+You can also use only the trigger callback, every other params is optional:
+
+```js
+import useDontLeave from 'use-dont-leave';
+
+const MyComponent = () => {
+  const handleTrigger = () => {
+    console.log("CTA Triggered!, I might open a dialog...");
+  };
+
+  useDontLeave({
+    onTrigger: handleTrigger,
   });
 
   return <div>My Component Content</div>;
